@@ -354,7 +354,7 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 *Data Scientist | Climate Analyst | GIS Engineer*
 
-[![GitHub](https://img.shields.io/badge/GitHub-eyafram7-data-black?style=flat-square&logo=github)](https://github.com/eyafram7-data)
+[![GitHub](https://img.shields.io/badge/GitHub-eyafram7--data-black?style=flat-square&logo=github)](https://github.com/eyafram7-data)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/emmanuel-yaw-afram77)
 [![Email](https://img.shields.io/badge/Email-eyafram7@gmail.com-red?style=flat-square&logo=gmail)](mailto:youremail@domain.com)
 
