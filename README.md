@@ -354,9 +354,9 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 *Data Scientist | Climate Analyst | GIS Engineer*
 
-[![GitHub](https://img.shields.io/badge/GitHub-yourusername-black?style=flat-square&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-youremail@domain.com-red?style=flat-square&logo=gmail)](mailto:youremail@domain.com)
+[![GitHub](https://img.shields.io/badge/GitHub-eyafram7-data-black?style=flat-square&logo=github)](https://github.com/eyafram7-data)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-emmanuel-yaw-afram77-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/emmanuel-yaw-afram77)
+[![Email](https://img.shields.io/badge/Email-eyafram7@gmail.com-red?style=flat-square&logo=gmail)](mailto:youremail@domain.com)
 
 *If this project helped you, please consider giving it a ⭐ star on GitHub!*
 
