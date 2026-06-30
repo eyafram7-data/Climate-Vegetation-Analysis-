@@ -14,12 +14,12 @@ long_description = (Path(__file__).parent / "README.md").read_text(encoding="utf
 setup(
     name="climate-vegetation-analysis",
     version="1.0.0",
-    author="Your Name",
-    author_email="youremail@domain.com",
+    author="Afram Yaw Emmanuel",
+    author_email="eyafram7@gmail.com",
     description="Climate Change and Vegetation Dynamics Analysis Using Remote Sensing and ML",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/Climate-Vegetation-Analysis",
+    url="https://github.com/eyafram7-data/Climate-Vegetation-Analysis",
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[
@@ -61,8 +61,8 @@ setup(
         "vegetation", "xgboost", "streamlit", "geospatial", "modis", "era5"
     ],
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/Climate-Vegetation-Analysis/issues",
-        "Source":      "https://github.com/yourusername/Climate-Vegetation-Analysis",
-        "Dashboard":   "https://yourusername-climate-veg.streamlit.app",
+        "Bug Reports": "https://github.com/eyafarm7-data/Climate-Vegetation-Analysis/issues",
+        "Source":      "https://github.com/eyafram7-data/Climate-Vegetation-Analysis",
+        "Dashboard":   "https://eyafram7-data-climate-veg.streamlit.app",
     },
 )
