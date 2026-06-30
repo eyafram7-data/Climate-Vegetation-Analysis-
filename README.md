@@ -1,5 +1,5 @@
-##Climate Change and Vegetation Dynamics Analysis
-###Using Remote Sensing and Machine Learning
+## Climate Change and Vegetation Dynamics Analysis
+### Using Remote Sensing and Machine Learning
 
 <div align="center">
 
