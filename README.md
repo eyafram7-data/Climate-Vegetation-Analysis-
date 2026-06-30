@@ -1,4 +1,4 @@
-# 🌿 Climate Change and Vegetation Dynamics Analysis
+#  Climate Change and Vegetation Dynamics Analysis
 ### Using Remote Sensing and Machine Learning
 
 <div align="center">
@@ -13,13 +13,13 @@
 
 **Analyzing the relationship between climate variables and vegetation health using satellite data, geospatial analysis, and machine learning.**
 
-[🚀 Live Dashboard](#) · [📊 View Notebooks](#notebooks) · [📖 Documentation](#methodology) · [🐛 Report Bug](#) · [✨ Request Feature](#)
+[Live Dashboard](#) · [ View Notebooks](#notebooks) · [ Documentation](#methodology) · [ Report Bug](#) · [ Request Feature](#)
 
 </div>
 
 ---
 
-## 📸 Project Screenshots
+##  Project Screenshots
 
 <div align="center">
 
@@ -31,13 +31,13 @@
 |---|---|
 | ![Heatmap](images/correlation_heatmap.png) | ![Map](images/interactive_map.png) |
 
-> 📌 *Run the project to generate these visualizations automatically.*
+>  *Run the project to generate these visualizations automatically.*
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Motivation](#-motivation)
@@ -55,15 +55,15 @@
 
 ---
 
-## 🌍 Project Overview
+##  Project Overview
 
 This project investigates the complex relationship between **climate change** and **vegetation dynamics** using:
 
-- 🛰️ **Remote Sensing** — NASA MODIS NDVI satellite data
-- 🌡️ **Climate Data** — Temperature, rainfall, humidity from NOAA & ERA5
-- 🤖 **Machine Learning** — Random Forest, XGBoost, SVR, and Linear Regression
-- 🗺️ **Geospatial Analysis** — Interactive maps with Folium and GeoPandas
-- 📊 **Interactive Dashboard** — Real-time exploration via Streamlit
+-  **Remote Sensing** — NASA MODIS NDVI satellite data
+-  **Climate Data** — Temperature, rainfall, humidity from NOAA & ERA5
+-  **Machine Learning** — Random Forest, XGBoost, SVR, and Linear Regression
+-  **Geospatial Analysis** — Interactive maps with Folium and GeoPandas
+-  **Interactive Dashboard** — Real-time exploration via Streamlit
 
 **NDVI (Normalized Difference Vegetation Index)** — values range from -1 to +1 — serves as the core vegetation health metric. Higher values indicate denser, healthier vegetation.
 
@@ -71,7 +71,7 @@ This project investigates the complex relationship between **climate change** an
 
 ---
 
-## 💡 Motivation
+##  Motivation
 
 Climate change is accelerating at an unprecedented rate. Rising temperatures, shifting rainfall patterns, and extreme weather events are disrupting ecosystems globally. Yet, the **spatiotemporal relationship** between these climate signals and vegetation response remains complex and region-dependent.
 
@@ -83,14 +83,14 @@ This project was built to:
 4. **Demonstrate** an end-to-end data science pipeline from raw data to deployment
 
 This work is relevant to:
-- 🌱 Environmental scientists and ecologists
-- 🏛️ Policy makers and conservation organizations
-- 🎓 Students and researchers in climate science
-- 💼 Data scientists exploring geospatial ML
+-  Environmental scientists and ecologists
+-  Policy makers and conservation organizations
+-  Students and researchers in climate science
+-  Data scientists exploring geospatial ML
 
 ---
 
-## 📦 Dataset Description
+##  Dataset Description
 
 | Dataset | Source | Description | Temporal Coverage |
 |---|---|---|---|
@@ -99,7 +99,7 @@ This work is relevant to:
 | ERA5 Reanalysis | Copernicus/ECMWF | Hourly global climate variables | 1979–2023 |
 | WorldClim v2.1 | WorldClim.org | High-resolution climate layers | 1970–2000 baseline |
 
-> 🔄 **Note:** This project includes a **synthetic data generator** that simulates realistic climate-vegetation datasets when direct API access is unavailable. The generator preserves the statistical properties and seasonal patterns of real-world data.
+>  **Note:** This project includes a **synthetic data generator** that simulates realistic climate-vegetation datasets when direct API access is unavailable. The generator preserves the statistical properties and seasonal patterns of real-world data.
 
 ### Key Variables
 
@@ -118,7 +118,7 @@ This work is relevant to:
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Prerequisites
 
@@ -175,45 +175,45 @@ jupyter notebook notebooks/
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 Climate-Vegetation-Analysis/
 │
-├── 📂 data/
-│   ├── 📂 raw/                    # Original unmodified datasets
+├──  data/
+│   ├──  raw/                    # Original unmodified datasets
 │   │   ├── ndvi_raw.csv
 │   │   ├── climate_raw.csv
 │   │   └── spatial_raw.geojson
-│   └── 📂 processed/              # Cleaned, merged, feature-engineered data
+│   └──  processed/              # Cleaned, merged, feature-engineered data
 │       ├── climate_vegetation_merged.csv
 │       └── features_engineered.csv
 │
-├── 📂 notebooks/
-│   ├── 📓 Data_Exploration.ipynb       # EDA with visualizations
-│   ├── 📓 Feature_Engineering.ipynb    # Feature creation and selection
-│   └── 📓 Model_Training.ipynb         # ML model training and evaluation
+├── notebooks/
+│   ├──  Data_Exploration.ipynb       # EDA with visualizations
+│   ├──  Feature_Engineering.ipynb    # Feature creation and selection
+│   └──  Model_Training.ipynb         # ML model training and evaluation
 │
-├── 📂 src/
-│   ├── 🐍 data_loader.py          # Data downloading and generation
-│   ├── 🐍 preprocessing.py        # Data cleaning and transformation
-│   ├── 🐍 visualization.py        # All plotting functions
-│   ├── 🐍 model.py                # ML model training and evaluation
-│   └── 🐍 prediction.py           # Future predictions and forecasting
+├── src/
+│   ├──  data_loader.py          # Data downloading and generation
+│   ├──  preprocessing.py        # Data cleaning and transformation
+│   ├──  visualization.py        # All plotting functions
+│   ├──  model.py                # ML model training and evaluation
+│   └──  prediction.py           # Future predictions and forecasting
 │
-├── 📂 images/                     # Output plots and screenshots
-├── 📂 reports/                    # Generated HTML/PDF reports
+├── images/                     # Output plots and screenshots
+├──  reports/                    # Generated HTML/PDF reports
 │
-├── 🐍 app.py                      # Streamlit dashboard
-├── 📄 requirements.txt            # Python dependencies
-├── 📄 LICENSE                     # MIT License
-├── 📄 README.md                   # This file
-└── 📄 .gitignore                  # Git ignore rules
+├──  app.py                      # Streamlit dashboard
+├──  requirements.txt            # Python dependencies
+├──  LICENSE                     # MIT License
+├──  README.md                   # This file
+└──  .gitignore                  # Git ignore rules
 ```
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Collection & Generation
 - Synthetic data generation mimicking real MODIS NDVI and NOAA climate patterns
@@ -254,7 +254,7 @@ Climate-Vegetation-Analysis/
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Model Performance Comparison
 
@@ -265,7 +265,7 @@ Climate-Vegetation-Analysis/
 | **XGBoost** | **~0.041** | **~0.032** | **~0.94** |
 | SVR | ~0.061 | ~0.049 | ~0.86 |
 
-> 🏆 **XGBoost** consistently achieved the highest performance across all metrics.
+>  **XGBoost** consistently achieved the highest performance across all metrics.
 
 ### Key Findings
 
@@ -277,22 +277,22 @@ Climate-Vegetation-Analysis/
 
 ---
 
-## 🗺️ Visualizations
+##  Visualizations
 
 This project generates the following visualizations automatically:
 
-- 📈 **Temperature Trend** — Annual mean temperature with linear trend overlay
-- 🌧️ **Precipitation Pattern** — Monthly rainfall distribution by year
-- 🌿 **NDVI Time Series** — Long-term vegetation index with seasonal decomposition
-- 🔥 **Correlation Heatmap** — Pearson correlations between all variables
-- 🗺️ **Interactive Map** — Folium map with NDVI and climate overlays
-- 📊 **Model Comparison** — Bar chart of RMSE/MAE/R² across models
-- 🎯 **Feature Importance** — XGBoost feature importance plot
-- 🔮 **Future Predictions** — Forecast plot with confidence intervals
+-  **Temperature Trend** — Annual mean temperature with linear trend overlay
+-  **Precipitation Pattern** — Monthly rainfall distribution by year
+-  **NDVI Time Series** — Long-term vegetation index with seasonal decomposition
+-  **Correlation Heatmap** — Pearson correlations between all variables
+-  **Interactive Map** — Folium map with NDVI and climate overlays
+-  **Model Comparison** — Bar chart of RMSE/MAE/R² across models
+-  **Feature Importance** — XGBoost feature importance plot
+-  **Future Predictions** — Forecast plot with confidence intervals
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - [ ] Integrate **Google Earth Engine** API for automated MODIS data download
 - [ ] Add **deep learning** models (LSTM, Transformer) for time series forecasting
@@ -305,7 +305,7 @@ This project generates the following visualizations automatically:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are warmly welcome! Here's how:
 
@@ -325,7 +325,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 📚 References
+##  References
 
 1. Didan, K. (2015). *MOD13A3 MODIS/Terra vegetation indices monthly L3 global 1km SIN grid V006*. NASA EOSDIS LP DAAC.
 2. Myneni, R. B., et al. (1997). *Increased plant growth in the northern high latitudes from 1981 to 1991*. Nature, 386(6626), 698–702.
@@ -336,7 +336,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -346,11 +346,11 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 <div align="center">
 
-**Your Name**
+**AFRAM YAW EMMANUEL**
 
 *Data Scientist | Climate Analyst | GIS Engineer*
 
@@ -366,6 +366,6 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 <div align="center">
 
-Made with ❤️ and Python 🐍 | © 2024 Your Name
+Made with ❤️ and Python  | © 2026 Afram Yaw Emmanuel
 
 </div>
