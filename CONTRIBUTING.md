@@ -24,32 +24,32 @@ Please be respectful and constructive in all interactions.
 
 ---
 
-## 🛠️ How to Contribute
+##  How to Contribute
 
-### 🐛 Reporting Bugs
-1. Check [existing issues](https://github.com/yourusername/Climate-Vegetation-Analysis/issues)
+###  Reporting Bugs
+1. Check [existing issues](https://github.com/eyafram7-data/Climate-Vegetation-Analysis/issues)
 2. Open a new issue with:
    - Clear title and description
    - Steps to reproduce
    - Expected vs actual behaviour
    - Python version and OS
 
-### 💡 Suggesting Features
+###  Suggesting Features
 - Open a [feature request issue](https://github.com/yourusername/Climate-Vegetation-Analysis/issues/new)
 - Describe the use case and why it adds value
 
-### 📝 Improving Documentation
+###  Improving Documentation
 - Fix typos, clarify explanations, add examples
 - Improve docstrings in any `src/*.py` file
 
-### 🔬 Adding Data Sources
+###  Adding Data Sources
 - See `src/data_loader.py` — add a new `load_<source>()` method
 - Include fallback to synthetic data if API is unavailable
 - Document the data format in the README
 
 ---
 
-## 💻 Development Setup
+##  Development Setup
 
 ```bash
 # 1. Fork the repo on GitHub, then clone your fork
@@ -80,7 +80,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure Guide
+##  Project Structure Guide
 
 | File / Folder | What to edit here |
 |---|---|
@@ -95,7 +95,7 @@ streamlit run app.py
 
 ---
 
-## ✅ Coding Standards
+##  Coding Standards
 
 ### Style
 - Follow **PEP 8** (use `black` for auto-formatting)
@@ -158,7 +158,7 @@ def test_clean_data_removes_duplicates():
 
 ---
 
-## 🚀 Submitting a Pull Request
+##  Submitting a Pull Request
 
 1. **Commit** your changes with a clear message:
    ```bash
@@ -187,7 +187,7 @@ def test_clean_data_removes_duplicates():
 
 ---
 
-## 🌱 Good First Issues
+##  Good First Issues
 
 Perfect for first-time contributors:
 
@@ -200,7 +200,7 @@ Perfect for first-time contributors:
 | Add WorldClim data loader | ⭐⭐⭐ Hard | API, rasterio |
 | Implement LSTM model for time series | ⭐⭐⭐ Hard | TensorFlow/PyTorch |
 
-Look for issues tagged [`good first issue`](https://github.com/yourusername/Climate-Vegetation-Analysis/labels/good%20first%20issue).
+Look for issues tagged [`good first issue`](https://github.com/eyafram7-data/Climate-Vegetation-Analysis/labels/good%20first%20issue).
 
 ---
 
