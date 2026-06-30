@@ -1,4 +1,4 @@
-# Climate Change and Vegetation Dynamics Analysis
+Climate Change and Vegetation Dynamics Analysis
 ### Using Remote Sensing and Machine Learning
 
 <div align="center">
