@@ -35,7 +35,7 @@ Please be respectful and constructive in all interactions.
    - Python version and OS
 
 ###  Suggesting Features
-- Open a [feature request issue](https://github.com/yourusername/Climate-Vegetation-Analysis/issues/new)
+- Open a [feature request issue](https://github.com/eyafram7-data/Climate-Vegetation-Analysis/issues/new)
 - Describe the use case and why it adds value
 
 ###  Improving Documentation
@@ -53,7 +53,7 @@ Please be respectful and constructive in all interactions.
 
 ```bash
 # 1. Fork the repo on GitHub, then clone your fork
-git clone https://github.com/YOUR_USERNAME/Climate-Vegetation-Analysis.git
+git clone https://github.com/eyafram7-data/Climate-Vegetation-Analysis.git
 cd Climate-Vegetation-Analysis
 
 # 2. Create a feature branch
