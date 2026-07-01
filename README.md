@@ -9,7 +9,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/yourusername/Climate-Vegetation-Analysis?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/eyafram7-data/Climate-Vegetation-Analysis?style=for-the-badge)
 
 **Analyzing the relationship between climate variables and vegetation health using satellite data, geospatial analysis, and machine learning.**
 
@@ -129,7 +129,7 @@ This work is relevant to:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Climate-Vegetation-Analysis.git
+git clone https://github.com/eyafram7-data/Climate-Vegetation-Analysis.git
 cd Climate-Vegetation-Analysis
 ```
 
@@ -356,7 +356,7 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 [![GitHub](https://img.shields.io/badge/GitHub-eyafram7--data-black?style=flat-square&logo=github)](https://github.com/eyafram7-data)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/emmanuel-yaw-afram77)
-[![Email](https://img.shields.io/badge/Email-eyafram7@gmail.com-red?style=flat-square&logo=gmail)](mailto:youremail@domain.com)
+[![Email](https://img.shields.io/badge/Email-eyafram7@gmail.com-red?style=flat-square&logo=gmail)](mailto:eyafram7@gmail.com)
 
 *If this project helped you, please consider giving it a ⭐ star on GitHub!*
 
