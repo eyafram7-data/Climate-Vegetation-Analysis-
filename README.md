@@ -130,7 +130,7 @@ This work is relevant to:
 
 ```bash
 git clone https://github.com/eyafram7-data/Climate-Vegetation-Analysis.git
-cd Climate-Vegetation-Analysis
+cd Climate-Vegetation-Analysis-
 ```
 
 ### Step 2: Create a Virtual Environment
