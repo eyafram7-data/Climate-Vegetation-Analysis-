@@ -167,7 +167,7 @@ def run_preprocessing(df_json: str) -> dict:
     (Streamlit can't hash DataFrames directly).
     """
     from preprocessing import Preprocessor
-   df = pd.read_json(StringIO(df_json)) 
+    df = pd.read_json(StringIO(df_json)) 
     df["date"] = pd.to_datetime(df["date"])
     prep = Preprocessor()
     return prep.run_full_pipeline(df, scale=True)
